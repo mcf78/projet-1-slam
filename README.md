@@ -9,8 +9,8 @@ Site statique en HTML, CSS et JavaScript, sans framework ni étape de compilatio
 | Page          | Fichier                    | Contenu                                                                             |
 | ------------- | -------------------------- | ----------------------------------------------------------------------------------- |
 | Accueil       | `index.html`               | L'équipe, les langages pratiqués, les entreprises d'alternance et de stage          |
-| Cours         | `pages/cours.html`         | Sept notions de base, de l'algorithme à sa traduction en C, Java, JavaScript et PHP |
-| Exercices     | `pages/exercices.html`     | Énoncés et corrigés en algo, C, Java, JavaScript et PHP, avec coloration du code    |
+| Cours         | `pages/cours.html`         | Neuf notions de base, de l'algorithme à sa traduction en C, Java, JavaScript et PHP, puis un récapitulatif des syntaxes |
+| Exercices     | `pages/exercices.html`     | Six exercices, énoncés et corrigés en algo, C, Java, JavaScript et PHP, avec coloration du code |
 | Documentation | `pages/documentation.html` | Cahier des charges, charte graphique, diagrammes, maquette et outils du projet      |
 
 ## Lancer le site
@@ -40,12 +40,13 @@ e5-website/
 │   ├── exercices.css
 │   └── documentation.css
 ├── js/
-│   ├── script.js           # Script commun à toutes les pages
+│   ├── script.js           # Script commun (pages exercices et documentation)
 │   ├── exercices.js        # Données des exercices et affichage de la page
 │   └── cours.js            # Coloration du code de la page cours
 ├── images/icons/           # Logo Ynov
 ├── documents/              # CV de l'équipe
-│   └── Documentation/      # Livrables affichés sur la page documentation
+│   ├── Documentation/      # Livrables affichés sur la page documentation
+│   └── contenu-cours/      # Contenu rédigé des cours et exercices (Markdown)
 └── docker-compose.yml      # Bonus : lancement avec Docker
 ```
 
